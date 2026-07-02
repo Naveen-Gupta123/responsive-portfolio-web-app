@@ -11,3 +11,6 @@ html {
     background: var(--accent);
     border-radius: 10px;
 }
+.project-card:hover {
+    transform: translateY(-5px);
+}
