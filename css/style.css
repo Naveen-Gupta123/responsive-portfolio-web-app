@@ -22,3 +22,8 @@ html {
 .logo:hover {
     color: var(--accent);
 }
+
+::selection {
+    background: var(--accent);
+    color: #ffffff;
+}
