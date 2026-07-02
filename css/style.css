@@ -14,3 +14,11 @@ html {
 .project-card:hover {
     transform: translateY(-5px);
 }
+.logo {
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: var(--accent);
+}
