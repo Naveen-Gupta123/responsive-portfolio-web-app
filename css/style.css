@@ -42,9 +42,10 @@ html {
 }
 .logo {
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.logo:hover {
-    color: var(--accent);
+.nav-links a:hover {
+    letter-spacing: 0.5px;
+
 }
