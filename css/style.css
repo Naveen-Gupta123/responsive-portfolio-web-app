@@ -49,3 +49,12 @@ html {
     letter-spacing: 0.5px;
 
 }
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    margin-top: 4rem;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
