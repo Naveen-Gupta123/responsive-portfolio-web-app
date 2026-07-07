@@ -144,3 +144,10 @@ footer {
 .nav-links a.active {
     color: var(--accent);
 }
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    margin-top: 4rem;
+}
