@@ -27,6 +27,8 @@ html {
     background: var(--accent);
     color: #ffffff;
 }
+/* style.css - Commit 3 */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,18 +39,65 @@ html {
     width: 100%;
     background-color: var(--bg-primary);
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     z-index: 1000;
 }
+
 .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
     cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.logo:hover {
+    color: var(--accent);
+    transform: scale(1.05);
+}
+
+.logo span {
+    color: var(--accent);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
     transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--accent);
 }
 
 .nav-links a:hover {
     letter-spacing: 0.5px;
-
 }
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -57,4 +106,17 @@ footer {
     margin-top: 4rem;
     color: var(--text-secondary);
     font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+    z-index: 1000;
 }
