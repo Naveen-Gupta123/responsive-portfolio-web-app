@@ -1,4 +1,7 @@
-/* style.css - Commit 2 */
+/* ==========================
+   Scrollbar
+========================== */
+
 html {
     scrollbar-width: thin;
 }
@@ -11,23 +14,27 @@ html {
     background: var(--accent);
     border-radius: 10px;
 }
-.project-card:hover {
-    transform: translateY(-5px);
-}
-.logo {
-    letter-spacing: 1px;
-    transition: color 0.3s ease;
-}
 
-.logo:hover {
-    color: var(--accent);
-}
+/* ==========================
+   Text Selection
+========================== */
 
 ::selection {
     background: var(--accent);
     color: #ffffff;
 }
-/* style.css - Commit 3 */
+
+/* ==========================
+   Project Card
+========================== */
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ==========================
+   Navbar
+========================== */
 
 .navbar {
     display: flex;
@@ -43,9 +50,14 @@ html {
     z-index: 1000;
 }
 
+/* ==========================
+   Logo
+========================== */
+
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
+    letter-spacing: 1px;
     cursor: pointer;
     transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -58,6 +70,10 @@ html {
 .logo span {
     color: var(--accent);
 }
+
+/* ==========================
+   Navigation Links
+========================== */
 
 .nav-links {
     display: flex;
@@ -98,56 +114,17 @@ html {
     width: 100%;
 }
 
+/* ==========================
+   Footer
+========================== */
+
 footer {
     text-align: center;
     padding: 2rem;
+    margin-top: 4rem;
     background-color: var(--bg-secondary);
     border-top: 1px solid var(--border-color);
-    margin-top: 4rem;
     color: var(--text-secondary);
     font-size: 0.95rem;
     letter-spacing: 0.5px;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 10%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: var(--bg-primary);
-    border-bottom: 1px solid var(--border-color);
-    z-index: 1000;
-}
-.logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.logo span {
-    color: var(--accent);
-}
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: var(--text-secondary);
-    font-weight: 500;
-    transition: color 0.2s;
-}
-.nav-links a:hover,
-.nav-links a.active {
-    color: var(--accent);
-}
-footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--bg-secondary);
-    border-top: 1px solid var(--border-color);
-    margin-top: 4rem;
 }
