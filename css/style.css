@@ -179,3 +179,9 @@ section {
     border-radius: 20px;
     transition: all 0.2s;
 }
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
