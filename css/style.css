@@ -209,3 +209,8 @@ section {
 .project-tag {
     font-size: 0.75rem;
 }
+.project-tag {
+    background: var(--border-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
