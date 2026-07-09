@@ -203,3 +203,6 @@ section {
 .project-card:hover {
     transform: translateY(-5px);
 }
+.project-info {
+    padding: 1.5rem;
+}
