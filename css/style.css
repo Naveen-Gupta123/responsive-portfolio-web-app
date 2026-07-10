@@ -249,3 +249,8 @@ section {
     color: var(--text-primary);
     border-radius: 0.25rem;
 }
+.form-feedback {
+    margin-top: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
