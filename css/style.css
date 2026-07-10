@@ -164,6 +164,7 @@ section {
 .timeline-item { margin-bottom: 1.5rem; position: relative; }
 .time-period { color: var(--text-secondary); font-size: 0.875rem; }
 
+/* style.css - Commit 5 Addition */
 .filter-buttons {
     display: flex;
     justify-content: center;
@@ -216,4 +217,15 @@ section {
 }
 .project-tag {
     text-transform: uppercase;
+}
+
+/* style.css - Commit 6 Addition */
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--bg-secondary);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
 }
