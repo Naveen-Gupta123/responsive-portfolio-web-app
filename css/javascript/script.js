@@ -30,3 +30,4 @@ function renderProjects(data) {
         </div>
     `).join('');
 }
+renderProjects(projects);
