@@ -19,3 +19,4 @@ const projects = [
     { title: "Cloud Storage Client", category: "fullstack", desc: "File orchestration UI hooked to third party APIs.", tag: "Fullstack" }
 ];
 const container = document.getElementById('projects-container');
+function renderProjects(data) {
