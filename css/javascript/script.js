@@ -23,3 +23,6 @@ function renderProjects(data) {
         container.innerHTML = data.map(p => `
         <div class="project-card">
             <div class="project-info">
+                            <span class="project-tag">${p.tag}</span>
+                <h3 style="margin: 0.5rem 0;">${p.title}</h3>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">${p.desc}</p>
