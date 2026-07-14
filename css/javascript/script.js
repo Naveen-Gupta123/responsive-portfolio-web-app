@@ -13,3 +13,8 @@ themeToggle.addEventListener('click', () => {
     themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
 });
 
+const projects = [
+    { title: "E-Commerce Suite", category: "fullstack", desc: "Built using React and Node.js Node.", tag: "Fullstack" },
+    { title: "Analytics App Dashboard", category: "frontend", desc: "Vanilla JavaScript data tracking interface.", tag: "Frontend" },
+    { title: "Cloud Storage Client", category: "fullstack", desc: "File orchestration UI hooked to third party APIs.", tag: "Fullstack" }
+];
