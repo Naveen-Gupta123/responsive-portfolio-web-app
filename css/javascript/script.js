@@ -20,3 +20,6 @@ const projects = [
 ];
 const container = document.getElementById('projects-container');
 function renderProjects(data) {
+        container.innerHTML = data.map(p => `
+        <div class="project-card">
+            <div class="project-info">
